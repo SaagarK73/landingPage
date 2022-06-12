@@ -43,10 +43,12 @@ ul {
 
 .main {
     display: flex;
-    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #34748b;
     justify-content: space-around;
-    gap: 20px;
 }
 
 .hero-main-text {
@@ -70,10 +72,6 @@ button {
     border-color: white;
 }
 
-.main-left {
-    margin-left: 100px;
-}
-
 .information {
     display: flex;
     flex-direction: column;
@@ -90,6 +88,7 @@ button {
 .festivals {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 52px;
 }
 
